@@ -4,6 +4,7 @@
 
 ### 개요
 - 핵심 엔드포인트:
+  - 생성(create): `POST /v1/payments`
   - 승인(confirm): `POST /v1/payments/confirm`
   - 취소(cancel): `POST /v1/payments/{paymentKey}/cancel`
 - 인증: Basic 인증. 헤더 `Authorization: Basic base64("<secret-key>:")`
